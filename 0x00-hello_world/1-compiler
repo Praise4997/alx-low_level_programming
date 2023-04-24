@@ -1,0 +1,7 @@
+#!/bin/bash
+
+CFILE="main.c"
+
+BASENAME="$(basename "$CFILE" .c)"
+
+gcc -c "$CFILE" -o "$BASENAME.o"

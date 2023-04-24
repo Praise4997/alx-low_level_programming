@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Get the name of the C file
+CFILE="main.c"
+
+# Compile the C file and create an executable named cisfun
+gcc -o cisfun "$CFILE"
+
